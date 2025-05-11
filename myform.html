@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>login to SOLO.</title>
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+</script>
+<![endif]-->
+<link rel="stylesheet" href="style.css">
+</head>
+<style>
+</style>
+<body>
+    <header>
+            <h1 class="logo"><a href="#">Solo.</a> </h1>
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#">ABOUT</a>
+            <a href="#">CONTACT</a>
+            <a href="#">SERVICE</a>
+            <button type="button" onclick="myFunction()" class="btnn">login</button>
+    </nav>
+</header>
+    <div class="wrapper" id="solomon">
+        <div class="form-box login">
+            <h1 >Login</h1>
+            <form action="#" >
+                <div class="input-box">
+                    <i class='bx bx-user'></i>
+                        <input type="email" required>
+                        <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class='bx bx-lock-alt'></i></span>
+                        <input type="password" required>
+                        <label>Password(6+ characters)</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox"><span>Remember me</span></label>
+                    <a href="#"><span>Forget password</span></a>
+
+                    
+                </div>
+                <button type="submit" class="btn">login</button>
+                <div class="login-register">
+                    <p>don't have an account? <a href="register.html" class="register-link">Register</a></p>
+                 
+                </div>
+            </form>
+        </div>
+    </div>
+      <script>
+ function myFunction() {
+    document.getElementById("solomon").style.display = "block";
+ }
+      </script>
+</body>
+</html>
